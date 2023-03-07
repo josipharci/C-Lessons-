@@ -4,11 +4,15 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Please enter your name");
+        Console.WriteLine("Please enter your FirstName");
+        String FirstName = Console.ReadLine();
 
-        String UserName = Console.ReadLine();
+        Console.WriteLine("Please enter your LastName");
+        String LastName = Console.ReadLine();
 
-        Console.WriteLine("Hello " + UserName);
+        Console.WriteLine("Hello {0}, {1}", FirstName , LastName);
+
+        //Console.WriteLine("Hello " + UserName);
 
         Console.ReadLine();
     }

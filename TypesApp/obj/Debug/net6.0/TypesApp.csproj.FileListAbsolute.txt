@@ -1,0 +1,15 @@
+E:\GithubRepozitori\CsharpLessons\TypesApp\bin\Debug\net6.0\TypesApp.exe
+E:\GithubRepozitori\CsharpLessons\TypesApp\bin\Debug\net6.0\TypesApp.deps.json
+E:\GithubRepozitori\CsharpLessons\TypesApp\bin\Debug\net6.0\TypesApp.runtimeconfig.json
+E:\GithubRepozitori\CsharpLessons\TypesApp\bin\Debug\net6.0\TypesApp.dll
+E:\GithubRepozitori\CsharpLessons\TypesApp\bin\Debug\net6.0\TypesApp.pdb
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.csproj.AssemblyReference.cache
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.AssemblyInfoInputs.cache
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.AssemblyInfo.cs
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.csproj.CoreCompileInputs.cache
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.dll
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\refint\TypesApp.dll
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.pdb
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\TypesApp.genruntimeconfig.cache
+E:\GithubRepozitori\CsharpLessons\TypesApp\obj\Debug\net6.0\ref\TypesApp.dll
