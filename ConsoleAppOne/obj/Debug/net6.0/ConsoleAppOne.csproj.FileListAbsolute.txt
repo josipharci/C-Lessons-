@@ -1,0 +1,15 @@
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\bin\Debug\net6.0\ConsoleAppOne.exe
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\bin\Debug\net6.0\ConsoleAppOne.deps.json
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\bin\Debug\net6.0\ConsoleAppOne.runtimeconfig.json
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\bin\Debug\net6.0\ConsoleAppOne.dll
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\bin\Debug\net6.0\ConsoleAppOne.pdb
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.csproj.AssemblyReference.cache
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.GeneratedMSBuildEditorConfig.editorconfig
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.AssemblyInfoInputs.cache
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.AssemblyInfo.cs
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.csproj.CoreCompileInputs.cache
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.dll
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\refint\ConsoleAppOne.dll
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.pdb
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ConsoleAppOne.genruntimeconfig.cache
+E:\GithubRepozitori\CsharpLessons\ConsoleAppOne\obj\Debug\net6.0\ref\ConsoleAppOne.dll
