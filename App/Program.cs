@@ -42,8 +42,28 @@
 
             // Working with Strings
 
-            Console.WriteLine("Josip Harci");
+            /*
+            string phrase = "Josip Harci";
+                        //   01234 678910
+            string phraseTwo = "Josip Harci " + "is cool";
 
+            Console.WriteLine("Josip Harci");
+            Console.WriteLine("Josip\nHarci"); //  Division new line
+            Console.WriteLine("Josip\"Harci");
+            Console.WriteLine(phrase);
+            Console.WriteLine(phraseTwo);
+            Console.WriteLine(phrase.Length); // Number char
+            Console.WriteLine(phraseTwo.ToUpper());
+            Console.WriteLine(phrase.ToLower());
+            Console.WriteLine(phraseTwo.Contains("Josip"));
+            Console.WriteLine(phrase[6]);
+            Console.WriteLine(phrase.IndexOf("Josip") ); //Start ID
+            Console.WriteLine(phrase.IndexOf("s") );
+            Console.WriteLine(phrase.IndexOf("f") ); // It's not in sequence
+            Console.WriteLine(phrase.Substring(8,3) );
+            */
+
+            // Working with Numbers
 
 
 
