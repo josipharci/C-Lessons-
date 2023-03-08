@@ -16,10 +16,22 @@
 
             // Variables
 
-            Console.WriteLine("There once was a man named Josip");
-            Console.WriteLine("He was 70 years old");
-            Console.WriteLine("He really liked the name Josip");
-            Console.WriteLine("But didn't like being 70");
+            /*
+            string characterName = "Tom";
+            int characterAge;
+            characterAge = 25;
+
+            Console.WriteLine("There once was a man named " + characterName);
+            Console.WriteLine("He was " + characterAge + " years old");
+
+            characterName = "Josip";
+            characterAge = 23;
+            Console.WriteLine("He really liked the name " + characterName);
+            Console.WriteLine("But didn't like being " + characterAge);
+            */
+
+            // Data Types
+
 
 
 
