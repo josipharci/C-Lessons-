@@ -32,6 +32,18 @@
 
             // Data Types
 
+            /*
+            string phrase = "Academy";
+            char grade = 'A';
+            int age = 25;
+            double gpa = 3.2;
+            bool isMale = true;
+            */
+
+            // Working with Strings
+
+            Console.WriteLine("Josip Harci");
+
 
 
 
