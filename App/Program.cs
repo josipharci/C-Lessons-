@@ -117,6 +117,7 @@
 
             // Building a calculator
 
+            /*
             Console.Write("Enter the first number: ");
             Double numOne = Convert.ToDouble(Console.ReadLine());
             
@@ -124,7 +125,11 @@
             Double numTwo = Convert.ToDouble(Console.ReadLine());
            
             Console.WriteLine(numOne + numTwo);
+            */
 
+            // Building a Mad Libs Game
+
+            
 
 
             Console.ReadLine();
