@@ -102,14 +102,20 @@
 
             // Getting User Input
 
+            /*
             Console.Write("Enter your name: ");
             String name = Console.ReadLine();
+
             // Console.WriteLine("Hello " + name);
+
             Console.Write("Enter your age: ");
             String age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " you are " + age);
 
             Console.ReadLine();
+            */
+
+            //
         }
     }
 }
