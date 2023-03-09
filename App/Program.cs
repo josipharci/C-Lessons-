@@ -112,10 +112,23 @@
             String age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " you are " + age);
 
-            Console.ReadLine();
+            
             */
 
-            //
+            // Building a calculator
+
+            Console.Write("Enter the first number: ");
+            Double numOne = Convert.ToDouble(Console.ReadLine());
+            
+            Console.Write("Enter second number: ");
+            Double numTwo = Convert.ToDouble(Console.ReadLine());
+           
+            Console.WriteLine(numOne + numTwo);
+
+
+
+            Console.ReadLine();
+
         }
     }
 }
