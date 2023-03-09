@@ -65,6 +65,42 @@
 
             // Working with Numbers
 
+            /*
+            Console.WriteLine(50);
+            Console.WriteLine(5 + 8);
+            Console.WriteLine(5 * 8);
+            Console.WriteLine(5 - 8);
+            Console.WriteLine(5 / 8);
+            Console.WriteLine(5 % 2); // Ostatak
+            Console.WriteLine(4 + 2 * 3);
+            Console.WriteLine((4 + 2) * 3);
+            Console.WriteLine(5.0 + 8.1); // Isto
+            Console.WriteLine(5 + 8.1); // Isto
+
+            Console.WriteLine(5 / 2.0);
+
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
+
+            int numTwo = 6;
+            numTwo--;
+            Console.WriteLine(numTwo);
+
+            Console.WriteLine(Math.Abs(-40) );
+
+            Console.WriteLine(Math.Pow(2 , 3));
+
+            Console.WriteLine(Math.Sqrt(36));
+
+            Console.WriteLine(Math.Min(36,100));
+
+            Console.WriteLine(Math.Max(36,100));
+
+            Console.WriteLine(Math.Round(2.3));
+            */
+
+            //
 
 
             Console.ReadLine();
