@@ -160,7 +160,16 @@
             Console.WriteLine(luckyNumbers[1] );
             */
 
+            
+
             Console.ReadLine();
+
+        }
+
+        // Methods
+
+        static void SayHi()
+        {
 
         }
     }
