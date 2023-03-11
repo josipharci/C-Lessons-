@@ -160,16 +160,18 @@
             Console.WriteLine(luckyNumbers[1] );
             */
 
+            //SayHi("Mike", 33);
             
-
             Console.ReadLine();
 
         }
 
         // Methods
+        // Return Statement
 
-        static void SayHi()
+        static void SayHi(string name,int age)
         {
+            Console.WriteLine("Hello " + name + " you are " + age);
 
         }
     }
