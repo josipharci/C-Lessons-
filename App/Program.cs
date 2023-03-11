@@ -161,9 +161,13 @@
             */
 
             //SayHi("Mike", 33);
-            
-            Console.ReadLine();
 
+            /*
+            int cubedNumber = cube(5);
+            Console.WriteLine(cubedNumber);
+            */
+
+            Console.ReadLine();
         }
 
         // Methods
@@ -174,5 +178,16 @@
             Console.WriteLine("Hello " + name + " you are " + age);
 
         }
+
+        static double cube(int num) 
+        {
+            int result = num * num * num;
+            return result;
+
+        }
+
+        // If Statements
+
+
     }
 }
