@@ -1,4 +1,6 @@
-﻿namespace App
+﻿using System.ComponentModel.Design;
+
+namespace App
 {
     internal class Program
     {
@@ -170,6 +172,7 @@
 
             //ifstate();
             //moreIfState();
+            Calculator();
 
             Console.ReadLine();
         }
@@ -287,7 +290,40 @@
 
         // Building a better Calculator
 
+        static void Calculator()
+        {
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
 
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
+
+
+            Console.Write("Enter a number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if(op == "+")
+            {
+                Console.WriteLine(num1 + num2);
+            }
+            else if(op == "-")
+            {
+                Console.WriteLine(num1 - num2);
+            }
+            else if (op == "*")
+            {
+                Console.WriteLine(num1 * num2);
+            }
+            else if(op == "/")
+            {
+                Console.WriteLine(num1 / num2);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Operator!");
+            }
+
+        }
 
     }
 }
