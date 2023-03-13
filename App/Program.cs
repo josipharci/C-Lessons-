@@ -174,6 +174,7 @@ namespace App
             //moreIfState();
             //Calculator();
             //SwitchState();
+            //While();
 
             Console.ReadLine();
         }
@@ -372,7 +373,31 @@ namespace App
             }
         }
 
-        // 
+        // While Loops
+
+        static void While()
+        {
+            /*
+            int index = 1;
+
+            while (index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
+            */
+
+            int index = 6;
+
+            do
+            {
+                Console.WriteLine(index);
+                index++;
+            } while (index <= 5);
+
+        }
+
+        // Building a Guessing Game
 
     }
 }
