@@ -192,11 +192,30 @@
 
         static void ifstate()
         {
-            bool isMale = true;
+            /*
+            bool isMale = false;
+            bool isTall = true;
 
-            if (isMale)
+            if (isMale && isTall)
             {
-                Console.WriteLine("You are male");
+                Console.WriteLine("You are a tall male");
+            }
+            else
+            {
+                Console.WriteLine("You are either not male or not tall or both");
+            }
+            */
+
+            bool isMale = false;
+            bool isTall = false;
+
+            if (isMale || isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            }
+            else
+            {
+                Console.WriteLine("You are either not male or not tall or both");
             }
 
         }
