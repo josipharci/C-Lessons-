@@ -167,6 +167,8 @@
             Console.WriteLine(cubedNumber);
             */
 
+            ifstate();
+
             Console.ReadLine();
         }
 
@@ -188,6 +190,16 @@
 
         // If Statements
 
+        static void ifstate()
+        {
+            bool isMale = true;
+
+            if (isMale)
+            {
+                Console.WriteLine("You are male");
+            }
+
+        }
 
     }
 }
