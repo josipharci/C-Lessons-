@@ -117,7 +117,7 @@
 
             // Building a calculator
 
-            /*
+            /* 
             Console.Write("Enter the first number: ");
             Double numOne = Convert.ToDouble(Console.ReadLine());
             
@@ -126,6 +126,7 @@
            
             Console.WriteLine(numOne + numTwo);
             */
+
 
             // Building a Mad Libs Game
 
@@ -167,7 +168,8 @@
             Console.WriteLine(cubedNumber);
             */
 
-           //ifstate();
+            //ifstate();
+            //moreIfState();
 
             Console.ReadLine();
         }
@@ -239,6 +241,53 @@
                 Console.WriteLine("You are not male and not tall");
             }
         }
+
+        static void moreIfState()
+        {
+            /*
+            Console.WriteLine(GetMax(2, 10));
+            static int GetMax(int num1 , int num2)
+            {
+                int result;
+                if(num1 > num2)
+                {
+                    result = num1;
+                }
+                else
+                {
+                    result = num2;
+                }
+
+
+                return result;
+            }
+            */
+
+            Console.WriteLine(GetMax(2, 10 , 15));
+            static int GetMax(int num1, int num2 , int num3)
+            {
+                int result;
+
+                if (num1 >= num2 && num1 >= num3)
+                {
+                    result = num1;
+                } 
+                else if(num2 >= num1 && num2 >= num3)
+                {
+                    result = num2;
+                }
+                else
+                {
+                    result = num3;
+                }
+
+                return result;
+            }
+        }
+
+        // Building a better Calculator
+
+
 
     }
 }
