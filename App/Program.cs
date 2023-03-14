@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Globalization;
 
 namespace App
 {
@@ -175,6 +176,7 @@ namespace App
             //Calculator();
             //SwitchState();
             //While();
+            Game();
 
             Console.ReadLine();
         }
@@ -398,6 +400,38 @@ namespace App
         }
 
         // Building a Guessing Game
+
+        static void Game()
+        {
+            string secretWord = "intellitest";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuesses = false;
+
+            while (guess != secretWord && !outOfGuesses)
+            {
+                if ( guessCount < guessLimit)
+                {
+                    Console.Write("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else
+                {
+                    outOfGuesses = true;
+                }
+            }
+            if (outOfGuesses)
+            {
+                Console.Write("You Lose!");
+            }
+            else
+            {
+                Console.Write("You Win!");
+            }
+            
+        }
 
     }
 }
