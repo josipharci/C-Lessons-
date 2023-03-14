@@ -180,6 +180,7 @@ namespace App
             //Loop();
             //ExpMet();
             //Array2d();
+            //ExpHand();
 
             Console.ReadLine();
         }
@@ -485,6 +486,31 @@ namespace App
             int[,] myArray = new int[2 , 3];
 
             Console.WriteLine(numberGrid[1, 1]);
+        }
+
+        // Exception Handling
+
+         static void ExpHand()
+        {
+            try
+            {
+                Console.Write("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+           
+
         }
 
     }
