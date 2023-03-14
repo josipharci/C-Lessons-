@@ -177,7 +177,8 @@ namespace App
             //SwitchState();
             //While();
             //Game();
-            Loop();
+            //Loop();
+            ExpMet();
 
             Console.ReadLine();
         }
@@ -444,6 +445,30 @@ namespace App
             {
                 Console.WriteLine(luckyNumbers[i]);
 
+            }
+        }
+
+        //Building an Exponent Method
+
+        static void ExpMet()
+        {
+            Console.Write("Enter Base Number: ");
+            int numOne = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Pow Number: ");
+            int numTwo = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(GetPow(numOne, numTwo));
+
+            static int GetPow(int baseNum, int powNum)
+            {
+                int result = 1;
+
+                for( int i = 0; i < powNum; i++ )
+                {
+                    result = result * baseNum;
+                }
+
+                return result; 
             }
         }
 
