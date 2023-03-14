@@ -187,14 +187,26 @@ namespace App
             //Class
 
 
-
+            /*
             Book book1 = new Book("Harry Potter","JK Rowling", 400);
             Book book2 = new Book("Lord of the Rings", "Tolkein" , 700);
 
-            book2.title = "The hobbit";
+            Console.WriteLine(book1.title);
+            Console.WriteLine(book1.author);
+            Console.WriteLine("Pages: " + book1.pages);
+
+            Console.WriteLine("-----");
 
             Console.WriteLine(book2.title);
-            
+            Console.WriteLine(book2.author);
+            Console.WriteLine("Pages: " + book2.pages);
+            */
+
+
+
+
+
+
             Console.ReadLine();
         }
 
