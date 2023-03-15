@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.Design;
 using System.Globalization;
+using System.Net.Http.Headers;
 
 namespace App
 {
@@ -202,8 +203,21 @@ namespace App
             Console.WriteLine("Pages: " + book2.pages);
             */
 
+            /*
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
 
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+            */
+
+          
+          //Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+
+            Console.WriteLine(avengers.Rating); 
 
 
 
