@@ -213,13 +213,19 @@ namespace App
             */
 
           
-          //Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            /*
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
             Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog");
             Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
 
             Console.WriteLine(avengers.Rating); 
+            */
 
-
+            Song holiday = new Song("Holiday","Green Day", 200);
+            Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(kashmir.getSongCount());
+           // Console.WriteLine(kashmir.title);
 
             Console.ReadLine();
         }
