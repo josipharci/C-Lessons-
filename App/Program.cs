@@ -185,7 +185,7 @@ namespace App
 
 
 
-            //Class Book, Students , Movie , Song
+            //Class Book, Students , Movie , Song , UserfulTools
 
 
             /*
@@ -229,7 +229,20 @@ namespace App
             Console.WriteLine(kashmir.title);
             */
 
-            UserfulTools.SayHi("Josip");
+            //UserfulTools.SayHi("Josip");
+
+            //Chef chef = new Chef();
+            //chef.MakeChicken();
+
+            //ItalianChef italianChef = new ItalianChef();
+            //italianChef.MakeChicken();
+            //italianChef.MakePasta();
+
+            Chef chef = new Chef();
+            chef.MakeSpacialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeSpacialDish();
 
             Console.ReadLine();
         }

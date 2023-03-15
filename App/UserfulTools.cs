@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace App
 {
      // Static methode & class
-     class UserfulTools
+     static class UserfulTools
     {
         public static void SayHi(string name)
         {
