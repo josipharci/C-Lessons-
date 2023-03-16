@@ -19,7 +19,25 @@ namespace AppForLessons
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-           this.Close();
+            if (txtUsername.Text == "Intellitest" && txtPassword.Text == "Lozinka123")
+            {
+                new Dashboarad().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("User data is invalid! TRY AGAIN!");
+                txtPassword.Clear();
+                txtUsername.Clear();
+                txtUsername.Focus();
+            }
         }
+
+        private void linkLabelExit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+
     }
 }
