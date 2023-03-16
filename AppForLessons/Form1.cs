@@ -17,9 +17,9 @@ namespace AppForLessons
             InitializeComponent();
         }
 
-        private void groupBoxLogin_Enter(object sender, EventArgs e)
+        private void buttonLogin_Click(object sender, EventArgs e)
         {
-
+           this.Close();
         }
     }
 }
