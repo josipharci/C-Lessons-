@@ -9,4 +9,3 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.CoreCompileInputs.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.pdb
-E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.AboutBox1.resources
