@@ -16,5 +16,10 @@ namespace AppForLessons
         {
             InitializeComponent();
         }
+
+        private void groupBoxLogin_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

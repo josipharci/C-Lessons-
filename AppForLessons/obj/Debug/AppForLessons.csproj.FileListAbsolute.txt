@@ -8,3 +8,4 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.G
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CoreCompileInputs.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Form1.resources
