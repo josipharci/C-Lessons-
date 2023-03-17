@@ -3,6 +3,7 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Release\AppForLessons.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Release\AppForLessons.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.AssemblyReference.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.SuggestedBindingRedirects.cache
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.Dashboarad.resources
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.Form1.resources
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.Properties.Resources.resources
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.GenerateResource.cache

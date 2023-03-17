@@ -16,5 +16,18 @@ namespace AppForLessons
         {
             InitializeComponent();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 x = new Form1();
+            x.Show();
+            MessageBox.Show("You are logged out!");
+        }
     }
 }
