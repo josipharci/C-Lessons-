@@ -12,6 +12,7 @@ using iTextSharp.text.pdf;
 using System.IO;
 using System.Reflection.Emit;
 
+
 namespace AppForLessons
 {
     public partial class Form2 : Form
@@ -57,6 +58,13 @@ namespace AppForLessons
             );
             p2.Alignment = Element.ALIGN_RIGHT;
             doc.Add(p2);
+
+            Paragraph p3 = new Paragraph(
+               textBoxTitle.Text
+            );
+            p3.Alignment = Element.ALIGN_CENTER;
+            doc.Add(p3);
+
             doc.Close();
             MessageBox.Show("Pdf is create!");
 
