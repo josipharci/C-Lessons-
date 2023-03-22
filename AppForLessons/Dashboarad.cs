@@ -29,5 +29,11 @@ namespace AppForLessons
             x.Show();
             MessageBox.Show("You are logged out!");
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 y = new Form2();
+            y.Show();
+        }
     }
 }

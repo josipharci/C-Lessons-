@@ -10,3 +10,8 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.CoreCompileInputs.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Release\BouncyCastle.Crypto.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Release\itextsharp.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Release\itextsharp.xml
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.Form2.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Release\AppForLessons.csproj.CopyComplete

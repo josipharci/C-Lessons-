@@ -1,0 +1,16 @@
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\AppForLessons.exe.config
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\AppForLessons.exe
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.AssemblyReference.cache
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.SuggestedBindingRedirects.cache
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Dashboarad.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Form1.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Form2.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Properties.Resources.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.GenerateResource.cache
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CoreCompileInputs.cache
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.exe
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\BouncyCastle.Crypto.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\itextsharp.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\itextsharp.xml
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CopyComplete
