@@ -19,7 +19,7 @@ namespace AppForLessons
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "Intellitest" && txtPassword.Text == "Lozinka123")
+            if (txtUsername.Text == "" && txtPassword.Text == "")
             {
                 new Dashboarad().Show();
                 this.Hide();

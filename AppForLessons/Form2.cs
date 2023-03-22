@@ -10,11 +10,14 @@ using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
+using System.Reflection.Emit;
 
 namespace AppForLessons
 {
     public partial class Form2 : Form
     {
+        private HorizontalAlignment SelectionAlignment;
+
         public Form2()
         {
             InitializeComponent();
@@ -22,19 +25,46 @@ namespace AppForLessons
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            
+
+            /* Document doc = new Document();
+             PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf",FileMode.Create));
+             doc.Open();
+             Paragraph h1 = new Paragraph("Naslov: " + textBoxTitle.Text);
+             doc.Add(h1);
+             Paragraph p1 = new Paragraph("Text: " + textBoxInput.Text);
+             doc.Add(p1);
+             Paragraph d1 = new Paragraph("Date: " + Dtp_date.Text);
+             doc.Add(d1);
+             doc.Close();
+             MessageBox.Show("Pdf is create!");*/
+
             Document doc = new Document();
-            PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf",FileMode.Create));
+            PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf", FileMode.Create));
             doc.Open();
-            Paragraph h1 = new Paragraph("Naslov: " + textBoxTitle.Text);
-            doc.Add(h1);
-            Paragraph p1 = new Paragraph("Text: " + textBoxInput.Text);
+            Paragraph p1 = new Paragraph(
+                "Ime i Prezime: " + textBoxName.Text + System.Environment.NewLine + 
+                "Adresa: " + textBoxAddress.Text + System.Environment.NewLine + 
+                "Poštanski broj i Mjesto: " + textBoxPostNum.Text + System.Environment.NewLine +
+                "Mob: " + textBoxPhoneNum.Text + System.Environment.NewLine +
+                textBoxEmail.Text
+            );
             doc.Add(p1);
-            Paragraph d1 = new Paragraph("Date: " + Dtp_date.Text);
-            doc.Add(d1);
+
+            Paragraph p2 = new Paragraph(
+                "Ime primatelja: " + textBoxRecName.Text + System.Environment.NewLine +
+                "Adresa: " + textBoxRecAddress.Text + System.Environment.NewLine +
+                "Poštanski broj i Mjesto: " + textBoxRecPostNum.Text + System.Environment.NewLine
+            );
+            p2.Alignment = Element.ALIGN_RIGHT;
+            doc.Add(p2);
             doc.Close();
             MessageBox.Show("Pdf is create!");
 
+
+
+
         }
+
+        
     }
 }
