@@ -244,7 +244,7 @@
             // 
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelTitle.Location = new System.Drawing.Point(215, 286);
+            this.labelTitle.Location = new System.Drawing.Point(254, 263);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(36, 16);
             this.labelTitle.TabIndex = 21;
@@ -252,10 +252,11 @@
             // 
             // textBoxTitle
             // 
-            this.textBoxTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxTitle.Location = new System.Drawing.Point(257, 277);
+            this.textBoxTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxTitle.Location = new System.Drawing.Point(257, 282);
+            this.textBoxTitle.Multiline = true;
             this.textBoxTitle.Name = "textBoxTitle";
-            this.textBoxTitle.Size = new System.Drawing.Size(317, 29);
+            this.textBoxTitle.Size = new System.Drawing.Size(317, 26);
             this.textBoxTitle.TabIndex = 24;
             // 
             // textBoxText

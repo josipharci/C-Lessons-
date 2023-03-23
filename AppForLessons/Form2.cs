@@ -13,6 +13,8 @@ using System.IO;
 using System.Reflection.Emit;
 
 
+
+
 namespace AppForLessons
 {
     public partial class Form2 : Form
@@ -27,43 +29,40 @@ namespace AppForLessons
         private void btn_save_Click(object sender, EventArgs e)
         {
 
-            /* Document doc = new Document();
-             PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf",FileMode.Create));
-             doc.Open();
-             Paragraph h1 = new Paragraph("Naslov: " + textBoxTitle.Text);
-             doc.Add(h1);
-             Paragraph p1 = new Paragraph("Text: " + textBoxInput.Text);
-             doc.Add(p1);
-             Paragraph d1 = new Paragraph("Date: " + Dtp_date.Text);
-             doc.Add(d1);
-             doc.Close();
-             MessageBox.Show("Pdf is create!");*/
+            var titleFont = FontFactory.GetFont("Arial", 18, BaseColor.BLACK);
+            var titleFont2 = FontFactory.GetFont("Arial", 10, BaseColor.DARK_GRAY);
+
 
             Document doc = new Document();
             PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf", FileMode.Create));
             doc.Open();
+
+            // TextOne
             Paragraph p1 = new Paragraph(
                 textBoxName.Text + System.Environment.NewLine + 
                 textBoxAddress.Text + System.Environment.NewLine + 
                 textBoxPostNum.Text + System.Environment.NewLine +
                 textBoxPhoneNum.Text + System.Environment.NewLine +
-                textBoxEmail.Text
+                textBoxEmail.Text, titleFont2
             );
             doc.Add(p1);
 
+            // TextTwo
             Paragraph p2 = new Paragraph(
                  textBoxRecName.Text + System.Environment.NewLine +
                  textBoxRecAddress.Text + System.Environment.NewLine +
-                 textBoxRecPostNum.Text + System.Environment.NewLine
+                 textBoxRecPostNum.Text + System.Environment.NewLine, titleFont2
             );
             p2.Alignment = Element.ALIGN_RIGHT;
             doc.Add(p2);
 
-            Paragraph p3 = new Paragraph(
-               textBoxTitle.Text
+
+            // Title
+            Paragraph title = new Paragraph(
+               textBoxTitle.Text , titleFont
             );
-            p3.Alignment = Element.ALIGN_CENTER;
-            doc.Add(p3);
+            title.Alignment = Element.ALIGN_CENTER;
+            doc.Add(title);
 
             doc.Close();
             MessageBox.Show("Pdf is create!");
