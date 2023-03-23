@@ -32,7 +32,7 @@ namespace AppForLessons
 
 
             Document doc = new Document(PageSize.A4, 55f, 55f, 25f, 25f);
-            PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf", FileMode.Create));
+            PdfWriter.GetInstance(doc,new FileStream("C:\\Users\\JosipH\\Documents\\Scanned Documents\\documentPDF.pdf", FileMode.Create));
             doc.Open();
 
             // TextOne
@@ -63,7 +63,9 @@ namespace AppForLessons
             title.SetLeading(2.5f,2.5f);
             doc.Add(title);
 
-            Paragraph p4 = new Paragraph("Poštovani",titleFont2);
+            Paragraph p4 = new Paragraph(
+                "Poštovani" + System.Environment.NewLine +
+                "" + System.Environment.NewLine, titleFont2);
             p4.SetLeading(2.5f, 2.5f);
             doc.Add(p4);
             
@@ -77,15 +79,19 @@ namespace AppForLessons
             Paragraph p5 = new Paragraph(
                 "S Poštovanjem" + System.Environment.NewLine +
                 textBoxName.Text + System.Environment.NewLine +
+                "" + System.Environment.NewLine +
                 textBoxCity.Text + " " + Dtp_date.Text 
-                , titleFont2
+                ,titleFont2
             );
             text.SetLeading(2.5f, 2.5f);
             doc.Add(p5);
 
             doc.Close();
-            MessageBox.Show("Pdf is create!");
+            MessageBox.Show("The file has been created and saved!");
         }
 
+       
+
+       
     }
 }
