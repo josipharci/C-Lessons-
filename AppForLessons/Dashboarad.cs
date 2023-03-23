@@ -35,5 +35,10 @@ namespace AppForLessons
             Form2 y = new Form2();
             y.Show();
         }
+
+        private void Dashboarad_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

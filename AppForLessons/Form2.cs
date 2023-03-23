@@ -43,18 +43,18 @@ namespace AppForLessons
             PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf", FileMode.Create));
             doc.Open();
             Paragraph p1 = new Paragraph(
-                "Ime i Prezime: " + textBoxName.Text + System.Environment.NewLine + 
-                "Adresa: " + textBoxAddress.Text + System.Environment.NewLine + 
-                "Poštanski broj i Mjesto: " + textBoxPostNum.Text + System.Environment.NewLine +
-                "Mob: " + textBoxPhoneNum.Text + System.Environment.NewLine +
+                textBoxName.Text + System.Environment.NewLine + 
+                textBoxAddress.Text + System.Environment.NewLine + 
+                textBoxPostNum.Text + System.Environment.NewLine +
+                textBoxPhoneNum.Text + System.Environment.NewLine +
                 textBoxEmail.Text
             );
             doc.Add(p1);
 
             Paragraph p2 = new Paragraph(
-                "Ime primatelja: " + textBoxRecName.Text + System.Environment.NewLine +
-                "Adresa: " + textBoxRecAddress.Text + System.Environment.NewLine +
-                "Poštanski broj i Mjesto: " + textBoxRecPostNum.Text + System.Environment.NewLine
+                 textBoxRecName.Text + System.Environment.NewLine +
+                 textBoxRecAddress.Text + System.Environment.NewLine +
+                 textBoxRecPostNum.Text + System.Environment.NewLine
             );
             p2.Alignment = Element.ALIGN_RIGHT;
             doc.Add(p2);
@@ -73,6 +73,5 @@ namespace AppForLessons
 
         }
 
-        
     }
 }
