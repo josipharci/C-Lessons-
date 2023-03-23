@@ -11,9 +11,7 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
 using System.Reflection.Emit;
-
-
-
+using Org.BouncyCastle.Security.Certificates;
 
 namespace AppForLessons
 {
@@ -33,7 +31,7 @@ namespace AppForLessons
             var titleFont2 = FontFactory.GetFont("Arial", 10, BaseColor.DARK_GRAY);
 
 
-            Document doc = new Document();
+            Document doc = new Document(PageSize.A4, 55f, 55f, 25f, 25f);
             PdfWriter.GetInstance(doc, new FileStream("E://createPDF.pdf", FileMode.Create));
             doc.Open();
 
@@ -58,18 +56,35 @@ namespace AppForLessons
 
 
             // Title
-            Paragraph title = new Paragraph(
-               textBoxTitle.Text , titleFont
+            Paragraph title = new Paragraph( 
+               textBoxTitle.Text, titleFont
             );
             title.Alignment = Element.ALIGN_CENTER;
+            title.SetLeading(2.5f,2.5f);
             doc.Add(title);
+
+            Paragraph p4 = new Paragraph("Poštovani",titleFont2);
+            p4.SetLeading(2.5f, 2.5f);
+            doc.Add(p4);
+            
+            //Text 
+            Paragraph text = new Paragraph(
+                textBoxText.Text + System.Environment.NewLine +
+                "" + System.Environment.NewLine ,titleFont2
+            );
+            doc.Add(text);
+
+            Paragraph p5 = new Paragraph(
+                "S Poštovanjem" + System.Environment.NewLine +
+                textBoxName.Text + System.Environment.NewLine +
+                textBoxCity.Text + " " + Dtp_date.Text 
+                , titleFont2
+            );
+            text.SetLeading(2.5f, 2.5f);
+            doc.Add(p5);
 
             doc.Close();
             MessageBox.Show("Pdf is create!");
-
-
-
-
         }
 
     }

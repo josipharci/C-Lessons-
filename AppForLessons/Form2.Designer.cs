@@ -54,7 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Dtp_date = new System.Windows.Forms.DateTimePicker();
             this.labelDate = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxCity = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBoxRec.SuspendLayout();
@@ -294,12 +294,12 @@
             this.labelDate.TabIndex = 28;
             this.labelDate.Text = "Date:";
             // 
-            // textBox6
+            // textBoxCity
             // 
-            this.textBox6.Location = new System.Drawing.Point(155, 566);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(146, 20);
-            this.textBox6.TabIndex = 30;
+            this.textBoxCity.Location = new System.Drawing.Point(155, 566);
+            this.textBoxCity.Name = "textBoxCity";
+            this.textBoxCity.Size = new System.Drawing.Size(146, 20);
+            this.textBoxCity.TabIndex = 30;
             // 
             // label2
             // 
@@ -316,7 +316,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 609);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBoxCity);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.Dtp_date);
@@ -365,7 +365,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker Dtp_date;
         private System.Windows.Forms.Label labelDate;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxCity;
         private System.Windows.Forms.Label label2;
     }
 }
