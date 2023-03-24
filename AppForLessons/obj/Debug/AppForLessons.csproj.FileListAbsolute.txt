@@ -15,3 +15,4 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.C
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CopyComplete
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Form3.resources

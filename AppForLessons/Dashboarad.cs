@@ -40,5 +40,11 @@ namespace AppForLessons
         {
             Application.Exit();
         }
+
+        private void workHoursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 z = new Form3();
+            z.Show();
+        }
     }
 }
