@@ -15,6 +15,7 @@ namespace AppForLessons
         public Dashboarad()
         {
             InitializeComponent();
+            
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -30,11 +31,6 @@ namespace AppForLessons
             MessageBox.Show("You are logged out!");
         }
 
-        private void newToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 y = new Form2();
-            y.Show();
-        }
 
         private void Dashboarad_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -45,6 +41,30 @@ namespace AppForLessons
         {
             Form3 z = new Form3();
             z.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/josip-harci-9063331b1/");
+        }
+
+        private void requestsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 y = new Form2();
+            y.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            lblTime.Text = DateTime.Now.ToString("HH/mm/ss");
+            lblDate.Text = DateTime.Now.ToString("dddd/dd/MMMM/yyyy");
+           
+        }
+
+        private void Dashboarad_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
     }
 }
