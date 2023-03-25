@@ -1,6 +1,3 @@
-E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\AppForLessons.exe.config
-E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\AppForLessons.exe
-E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\AppForLessons.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\BouncyCastle.Crypto.dll
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\itextsharp.dll
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\itextsharp.xml
@@ -13,6 +10,9 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Properti
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.GenerateResource.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CoreCompileInputs.cache
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.csproj.CopyComplete
-E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.exe
-E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\AppForLessons.Form3.resources
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\SWApp.exe.config
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\SWApp.exe
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\SWApp.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\SWApp.exe
+E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\SWApp.pdb

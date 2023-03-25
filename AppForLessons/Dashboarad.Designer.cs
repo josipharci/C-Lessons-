@@ -73,6 +73,7 @@
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = global::AppForLessons.Properties.Resources.exit;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.exitToolStripMenuItem.Text = "Exit";
@@ -80,6 +81,7 @@
             // 
             // logoutToolStripMenuItem
             // 
+            this.logoutToolStripMenuItem.Image = global::AppForLessons.Properties.Resources.logout;
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.logoutToolStripMenuItem.Text = "Logout";
@@ -87,6 +89,7 @@
             // 
             // workHoursToolStripMenuItem
             // 
+            this.workHoursToolStripMenuItem.Image = global::AppForLessons.Properties.Resources.clock;
             this.workHoursToolStripMenuItem.Name = "workHoursToolStripMenuItem";
             this.workHoursToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.workHoursToolStripMenuItem.Text = "Work hours";
@@ -104,21 +107,23 @@
             // 
             this.newToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.requestsToolStripMenuItem});
+            this.newToolStripMenuItem1.Image = global::AppForLessons.Properties.Resources._new;
             this.newToolStripMenuItem1.Name = "newToolStripMenuItem1";
-            this.newToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
+            this.newToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.newToolStripMenuItem1.Text = "New";
             // 
             // requestsToolStripMenuItem
             // 
+            this.requestsToolStripMenuItem.Image = global::AppForLessons.Properties.Resources.document;
             this.requestsToolStripMenuItem.Name = "requestsToolStripMenuItem";
-            this.requestsToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.requestsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.requestsToolStripMenuItem.Text = "Requests";
             this.requestsToolStripMenuItem.Click += new System.EventHandler(this.requestsToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(134, 47);
+            this.pictureBox1.Location = new System.Drawing.Point(149, 47);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(104, 82);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -129,7 +134,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(244, 62);
+            this.label1.Location = new System.Drawing.Point(249, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(366, 102);
             this.label1.TabIndex = 3;
@@ -140,7 +145,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Red;
-            this.linkLabel1.Location = new System.Drawing.Point(369, 116);
+            this.linkLabel1.Location = new System.Drawing.Point(259, 116);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(96, 13);
             this.linkLabel1.TabIndex = 4;
@@ -152,7 +157,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(357, 423);
+            this.label2.Location = new System.Drawing.Point(358, 425);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 16);
             this.label2.TabIndex = 5;
@@ -162,21 +167,21 @@
             // 
             this.lblTime.AutoSize = true;
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblTime.Location = new System.Drawing.Point(365, 227);
+            this.lblTime.Location = new System.Drawing.Point(333, 192);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(98, 37);
+            this.lblTime.Size = new System.Drawing.Size(0, 37);
             this.lblTime.TabIndex = 6;
-            this.lblTime.Text = "22:22";
+            this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblDate
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblDate.Location = new System.Drawing.Point(330, 283);
+            this.lblDate.Location = new System.Drawing.Point(294, 248);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(157, 25);
+            this.lblDate.Size = new System.Drawing.Size(0, 25);
             this.lblDate.TabIndex = 8;
-            this.lblDate.Text = " JUNE 25 2023";
+            this.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timer1
             // 

@@ -57,8 +57,8 @@ namespace AppForLessons
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            lblTime.Text = DateTime.Now.ToString("HH/mm/ss");
-            lblDate.Text = DateTime.Now.ToString("dddd/dd/MMMM/yyyy");
+            lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
+            lblDate.Text = DateTime.Now.ToString("dddd dd/MMMM/yyyy");
            
         }
 

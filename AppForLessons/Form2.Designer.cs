@@ -61,6 +61,7 @@
             // 
             // btn_save
             // 
+            this.btn_save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_save.Location = new System.Drawing.Point(543, 489);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(107, 28);
@@ -317,7 +318,8 @@
             this.Controls.Add(this.btn_save);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
-            this.Text = "Intellitest";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SWApp";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBoxRec.ResumeLayout(false);
