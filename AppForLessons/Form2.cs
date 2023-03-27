@@ -12,6 +12,7 @@ using iTextSharp.text.pdf;
 using System.IO;
 using System.Reflection.Emit;
 using Org.BouncyCastle.Security.Certificates;
+using System.Runtime.InteropServices;
 
 namespace AppForLessons
 {
@@ -98,6 +99,28 @@ namespace AppForLessons
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = System.Drawing.Color.Red;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+        }
+
+       
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr one, int two, int three, int four);
+       
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, 0x112, 0xf012, 0);
         }
     }
 }
