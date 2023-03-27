@@ -29,27 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.labelUsername = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.groupBoxLogin = new System.Windows.Forms.GroupBox();
-            this.linkLabelExit = new System.Windows.Forms.LinkLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.ExitBoxLog = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBoxLogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitBoxLog)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
-            this.pictureBoxLogo.Location = new System.Drawing.Point(91, 49);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(149, 85);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
             // 
             // buttonLogin
             // 
@@ -114,46 +106,65 @@
             this.groupBoxLogin.Controls.Add(this.txtUsername);
             this.groupBoxLogin.Controls.Add(this.buttonLogin);
             this.groupBoxLogin.Controls.Add(this.labelUsername);
-            this.groupBoxLogin.Location = new System.Drawing.Point(40, 160);
+            this.groupBoxLogin.Location = new System.Drawing.Point(40, 171);
             this.groupBoxLogin.Name = "groupBoxLogin";
             this.groupBoxLogin.Size = new System.Drawing.Size(254, 193);
             this.groupBoxLogin.TabIndex = 1;
             this.groupBoxLogin.TabStop = false;
-            this.groupBoxLogin.Text = "Login";
+            this.groupBoxLogin.Text = "Log in";
             // 
-            // linkLabelExit
+            // pictureBoxLogo
             // 
-            this.linkLabelExit.AutoSize = true;
-            this.linkLabelExit.Font = new System.Drawing.Font("Yu Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.linkLabelExit.LinkColor = System.Drawing.Color.Black;
-            this.linkLabelExit.Location = new System.Drawing.Point(151, 357);
-            this.linkLabelExit.Name = "linkLabelExit";
-            this.linkLabelExit.Size = new System.Drawing.Size(29, 16);
-            this.linkLabelExit.TabIndex = 5;
-            this.linkLabelExit.TabStop = true;
-            this.linkLabelExit.Text = "Exit";
-            this.linkLabelExit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelExit_LinkClicked);
+            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
+            this.pictureBoxLogo.Location = new System.Drawing.Point(91, 60);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(149, 85);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            // 
+            // ExitBoxLog
+            // 
+            this.ExitBoxLog.Image = ((System.Drawing.Image)(resources.GetObject("ExitBoxLog.Image")));
+            this.ExitBoxLog.Location = new System.Drawing.Point(297, 12);
+            this.ExitBoxLog.Name = "ExitBoxLog";
+            this.ExitBoxLog.Size = new System.Drawing.Size(20, 20);
+            this.ExitBoxLog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ExitBoxLog.TabIndex = 11;
+            this.ExitBoxLog.TabStop = false;
+            this.ExitBoxLog.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.ExitBoxLog.MouseLeave += new System.EventHandler(this.ExitBoxLog_MouseLeave);
+            this.ExitBoxLog.MouseHover += new System.EventHandler(this.ExitBoxLog_MouseHover);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(331, 42);
+            this.panel1.TabIndex = 12;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(329, 438);
-            this.Controls.Add(this.linkLabelExit);
+            this.Controls.Add(this.ExitBoxLog);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.groupBoxLogin);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SWApp";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.groupBoxLogin.ResumeLayout(false);
             this.groupBoxLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitBoxLog)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -166,7 +177,8 @@
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.GroupBox groupBoxLogin;
-        private System.Windows.Forms.LinkLabel linkLabelExit;
+        private System.Windows.Forms.PictureBox ExitBoxLog;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

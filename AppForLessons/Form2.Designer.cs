@@ -55,8 +55,12 @@
             this.labelDate = new System.Windows.Forms.Label();
             this.textBoxCity = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBoxRec.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_save
@@ -167,7 +171,7 @@
             this.groupBox1.Controls.Add(this.textBoxAddress);
             this.groupBox1.Controls.Add(this.labelPhoneNum);
             this.groupBox1.Controls.Add(this.labelEmail);
-            this.groupBox1.Location = new System.Drawing.Point(23, 23);
+            this.groupBox1.Location = new System.Drawing.Point(23, 33);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(260, 168);
             this.groupBox1.TabIndex = 16;
@@ -212,7 +216,7 @@
             this.groupBoxRec.Controls.Add(this.labelRecAddress);
             this.groupBoxRec.Controls.Add(this.textBoxRecName);
             this.groupBoxRec.Controls.Add(this.labelRecPost);
-            this.groupBoxRec.Location = new System.Drawing.Point(381, 23);
+            this.groupBoxRec.Location = new System.Drawing.Point(381, 33);
             this.groupBoxRec.Name = "groupBoxRec";
             this.groupBoxRec.Size = new System.Drawing.Size(269, 121);
             this.groupBoxRec.TabIndex = 20;
@@ -301,11 +305,33 @@
             this.label2.TabIndex = 29;
             this.label2.Text = "CITY:";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(683, 27);
+            this.panel1.TabIndex = 31;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(649, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 540);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBoxCity);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelDate);
@@ -316,6 +342,7 @@
             this.Controls.Add(this.groupBoxRec);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_save);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -324,6 +351,8 @@
             this.groupBox1.PerformLayout();
             this.groupBoxRec.ResumeLayout(false);
             this.groupBoxRec.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -356,5 +385,7 @@
         private System.Windows.Forms.Label labelDate;
         private System.Windows.Forms.TextBox textBoxCity;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

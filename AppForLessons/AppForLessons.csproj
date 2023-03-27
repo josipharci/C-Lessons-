@@ -154,6 +154,11 @@
   <ItemGroup>
     <Content Include="favicon %284%29.ico" />
     <Content Include="favicon.ico" />
+    <None Include="Resources\icon21.png" />
+    <None Include="Resources\icon2.png" />
+    <None Include="Resources\Icon.png" />
+    <None Include="Resources\x-square.ico" />
+    <None Include="Resources\cross.ico" />
     <None Include="Resources\save.ico" />
     <None Include="Resources\document.ico" />
     <None Include="Resources\new.ico" />
