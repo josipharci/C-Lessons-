@@ -10,6 +10,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace AppForLessons
 {
@@ -98,6 +99,13 @@ namespace AppForLessons
                     }
                 }
             };
+        }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            choSheet.Text = string.Empty;
+            inputFileBox.Text = string.Empty;
+            dataGridView1.DataSource = string.Empty;
         }
     }
 }

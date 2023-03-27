@@ -55,6 +55,7 @@
             this.choSheet = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnClean = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -64,9 +65,9 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(462, 81);
+            this.dataGridView1.Location = new System.Drawing.Point(408, 81);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(304, 255);
+            this.dataGridView1.Size = new System.Drawing.Size(358, 255);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel1
@@ -245,7 +246,7 @@
             // 
             // btn_open
             // 
-            this.btn_open.Location = new System.Drawing.Point(691, 361);
+            this.btn_open.Location = new System.Drawing.Point(639, 361);
             this.btn_open.Name = "btn_open";
             this.btn_open.Size = new System.Drawing.Size(75, 23);
             this.btn_open.TabIndex = 51;
@@ -256,7 +257,7 @@
             // inputFileBox
             // 
             this.inputFileBox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.inputFileBox.Location = new System.Drawing.Point(462, 361);
+            this.inputFileBox.Location = new System.Drawing.Point(410, 361);
             this.inputFileBox.Name = "inputFileBox";
             this.inputFileBox.ReadOnly = true;
             this.inputFileBox.Size = new System.Drawing.Size(223, 20);
@@ -265,7 +266,7 @@
             // choSheet
             // 
             this.choSheet.FormattingEnabled = true;
-            this.choSheet.Location = new System.Drawing.Point(462, 407);
+            this.choSheet.Location = new System.Drawing.Point(410, 407);
             this.choSheet.Name = "choSheet";
             this.choSheet.Size = new System.Drawing.Size(119, 21);
             this.choSheet.TabIndex = 53;
@@ -275,7 +276,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(459, 342);
+            this.label8.Location = new System.Drawing.Point(407, 342);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 16);
             this.label8.TabIndex = 54;
@@ -285,17 +286,28 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.Location = new System.Drawing.Point(459, 389);
+            this.label9.Location = new System.Drawing.Point(407, 389);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(45, 16);
             this.label9.TabIndex = 55;
             this.label9.Text = "Sheet:";
+            // 
+            // btnClean
+            // 
+            this.btnClean.Location = new System.Drawing.Point(639, 405);
+            this.btnClean.Name = "btnClean";
+            this.btnClean.Size = new System.Drawing.Size(75, 23);
+            this.btnClean.TabIndex = 56;
+            this.btnClean.Text = "Clean";
+            this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClean);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.choSheet);
@@ -360,5 +372,6 @@
         private System.Windows.Forms.ComboBox choSheet;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnClean;
     }
 }
