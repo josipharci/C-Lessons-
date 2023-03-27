@@ -20,7 +20,7 @@ namespace AppForLessons
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "" && txtPassword.Text == "")
+            if (txtUsername.Text == "Josip Harci" && txtPassword.Text == "")
             {
                 new Dashboarad().Show();
                 this.Hide();
@@ -71,5 +71,7 @@ namespace AppForLessons
         {
             ExitBoxLog.BackColor = System.Drawing.Color.GhostWhite;
         }
+
+       
     }
 }

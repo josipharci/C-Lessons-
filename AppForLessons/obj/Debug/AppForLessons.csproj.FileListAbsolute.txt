@@ -16,3 +16,9 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\SWApp.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\SWApp.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\SWApp.exe
 E:\GithubRepozitori\CsharpLessons\AppForLessons\obj\Debug\SWApp.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.DataSet.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.xml
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.DataSet.xml
