@@ -74,10 +74,10 @@
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(24, 49);
-            this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(203, 26);
+            this.txtUsername.Size = new System.Drawing.Size(203, 20);
             this.txtUsername.TabIndex = 2;
+           
             // 
             // labelPassword
             // 
@@ -91,10 +91,10 @@
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(24, 94);
-            this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(204, 25);
+            this.txtPassword.Size = new System.Drawing.Size(204, 20);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
             // 
             // groupBoxLogin
             // 

@@ -72,6 +72,15 @@ namespace AppForLessons
             ExitBoxLog.BackColor = System.Drawing.Color.GhostWhite;
         }
 
-       
+        
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                buttonLogin.PerformClick();
+            }
+        }
+
     }
 }

@@ -246,9 +246,9 @@
             // 
             // btn_open
             // 
-            this.btn_open.Location = new System.Drawing.Point(639, 361);
+            this.btn_open.Location = new System.Drawing.Point(688, 361);
             this.btn_open.Name = "btn_open";
-            this.btn_open.Size = new System.Drawing.Size(75, 23);
+            this.btn_open.Size = new System.Drawing.Size(78, 23);
             this.btn_open.TabIndex = 51;
             this.btn_open.Text = "Open";
             this.btn_open.UseVisualStyleBackColor = true;
@@ -260,7 +260,7 @@
             this.inputFileBox.Location = new System.Drawing.Point(410, 361);
             this.inputFileBox.Name = "inputFileBox";
             this.inputFileBox.ReadOnly = true;
-            this.inputFileBox.Size = new System.Drawing.Size(223, 20);
+            this.inputFileBox.Size = new System.Drawing.Size(272, 20);
             this.inputFileBox.TabIndex = 52;
             // 
             // choSheet
@@ -268,7 +268,7 @@
             this.choSheet.FormattingEnabled = true;
             this.choSheet.Location = new System.Drawing.Point(410, 407);
             this.choSheet.Name = "choSheet";
-            this.choSheet.Size = new System.Drawing.Size(119, 21);
+            this.choSheet.Size = new System.Drawing.Size(272, 21);
             this.choSheet.TabIndex = 53;
             this.choSheet.SelectedIndexChanged += new System.EventHandler(this.choSheet_SelectedIndexChanged);
             // 
@@ -294,9 +294,9 @@
             // 
             // btnClean
             // 
-            this.btnClean.Location = new System.Drawing.Point(639, 405);
+            this.btnClean.Location = new System.Drawing.Point(688, 405);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(75, 23);
+            this.btnClean.Size = new System.Drawing.Size(78, 23);
             this.btnClean.TabIndex = 56;
             this.btnClean.Text = "Clean";
             this.btnClean.UseVisualStyleBackColor = true;
