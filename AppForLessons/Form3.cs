@@ -15,6 +15,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using DataTable = System.Data.DataTable;
+using Microsoft.Office.Interop.Excel;
+using Workbook = ExcelLibrary.SpreadSheet.Workbook;
+using Worksheet = ExcelLibrary.SpreadSheet.Worksheet;
 
 namespace AppForLessons
 {
@@ -118,18 +121,21 @@ namespace AppForLessons
             string file = "C:\\Users\\JosipH\\Documents\\Scanned Documents\\newdocHours.xls";
             Workbook workbook = new Workbook();
             Worksheet worksheet = new Worksheet("Hours");
-            worksheet.Cells[0, 1] = new Cell((short)1);
-            worksheet.Cells[2, 0] = new Cell(9999999);
-            worksheet.Cells[3, 3] = new Cell((decimal)3.45);
-            worksheet.Cells[2, 2] = new Cell("Text string");
-            worksheet.Cells[2, 4] = new Cell("Second string");
-            worksheet.Cells[4, 0] = new Cell(32764.5, "#,##0.00");
-            worksheet.Cells[5, 1] = new Cell(DateTime.Now, @"YYYY\-MM\-DD");
+            worksheet.Cells[0, 0] = new Cell("DATE");
+            worksheet.Cells[0, 1] = new Cell("NAME");
+            worksheet.Cells[0, 2] = new Cell("START");
+            worksheet.Cells[0, 3] = new Cell("END");
+            worksheet.Cells[0, 4] = new Cell("DES..");
 
             worksheet.Cells.ColumnWidth[0, 1] = 3000;
             workbook.Worksheets.Add(worksheet);
             workbook.Save(file);
 
+        }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
