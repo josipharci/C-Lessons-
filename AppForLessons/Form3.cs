@@ -1,4 +1,7 @@
-﻿using ExcelDataReader;
+﻿
+using ExcelDataReader;
+using ExcelLibrary.SpreadSheet;
+using ExcelLibrary.CompoundDocumentFormat;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using DataTable = System.Data.DataTable;
 
 namespace AppForLessons
 {
@@ -19,6 +23,7 @@ namespace AppForLessons
         public Form3()
         {
             InitializeComponent();
+            
         }
 
 
@@ -106,6 +111,22 @@ namespace AppForLessons
             choSheet.Text = string.Empty;
             inputFileBox.Text = string.Empty;
             dataGridView1.DataSource = string.Empty;
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            string Location = @"C:\Users\JosipH\Documents\Scanned Documents";
+            string file = System.IO.Path.Combine(Location, "MyExcelCreate.xlsx");
+            if (!System.IO.File.Exists(file))
+            {
+                System.IO.File.Create(file);
+                MessageBox.Show("Successfully Created" + file);
+            }
+            else
+            {
+                MessageBox.Show("No Successfully Created" + file);
+            }
+
         }
     }
 }

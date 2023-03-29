@@ -22,3 +22,6 @@ E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.xml
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.DataSet.pdb
 E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelDataReader.DataSet.xml
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\GithubRepozitori\CsharpLessons\AppForLessons\bin\Debug\ExcelLibrary.dll
