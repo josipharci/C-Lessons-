@@ -115,17 +115,20 @@ namespace AppForLessons
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            string Location = @"C:\Users\JosipH\Documents\Scanned Documents";
-            string file = System.IO.Path.Combine(Location, "MyExcelCreate.xlsx");
-            if (!System.IO.File.Exists(file))
-            {
-                System.IO.File.Create(file);
-                MessageBox.Show("Successfully Created" + file);
-            }
-            else
-            {
-                MessageBox.Show("No Successfully Created" + file);
-            }
+            string file = "C:\\Users\\JosipH\\Documents\\Scanned Documents\\newdocHours.xls";
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = new Worksheet("Hours");
+            worksheet.Cells[0, 1] = new Cell((short)1);
+            worksheet.Cells[2, 0] = new Cell(9999999);
+            worksheet.Cells[3, 3] = new Cell((decimal)3.45);
+            worksheet.Cells[2, 2] = new Cell("Text string");
+            worksheet.Cells[2, 4] = new Cell("Second string");
+            worksheet.Cells[4, 0] = new Cell(32764.5, "#,##0.00");
+            worksheet.Cells[5, 1] = new Cell(DateTime.Now, @"YYYY\-MM\-DD");
+
+            worksheet.Cells.ColumnWidth[0, 1] = 3000;
+            workbook.Worksheets.Add(worksheet);
+            workbook.Save(file);
 
         }
     }
